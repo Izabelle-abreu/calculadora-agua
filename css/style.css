@@ -92,8 +92,8 @@ body {
     margin-bottom: 10px;
 }
 .container__conteudo p {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 /**/
@@ -124,7 +124,7 @@ body {
 }
 
 /*Responsividade*/
-@media screen and (max-width: 695px) {
+@media screen and (max-width: 768px) {
     .tudo {
         width: 100%;
     }
@@ -140,14 +140,37 @@ body {
     .inicio h1 {
         padding: 0;
     }
+    .container button {
+        font-size: 22px;
+        height: 50px;
+        width: 120px;
+    }
+    .resultado span {
+        padding: 0 30px;
+    }
     .conteudo {
         width: 90%;
         margin-top: 105px;
     }
+    .conteudo h1{
+        font-size: 50px;
+    }
+    .conteudo p{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+    }
     .rodape p {
-        left: 75px;
+        font-size: 20px;
+        margin-bottom: 25px;
     }
     .rodape div {
-        left: 140px;
+        top: 40px;
+        left: -10px;
+        margin-bottom: 10px;
     }
 }
